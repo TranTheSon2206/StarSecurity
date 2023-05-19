@@ -55,14 +55,7 @@ a {
 }
 
 /* Home */
-.home {
-  position: relative;
-  height: 150vh;
-  width: 100%;
-  background-image: url(img/bgfix1.jpg);
-  background-size: cover;
-  background-position: center;
-}
+
 .home::before {
   content: "";
   position: absolute;
