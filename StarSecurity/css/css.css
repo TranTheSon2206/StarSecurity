@@ -59,7 +59,7 @@ a {
   position: relative;
   height: 150vh;
   width: 100%;
-  background-image: url(bgfix1.jpg);
+  background-image: url(img/bgfix1.jpg);
   background-size: cover;
   background-position: center;
 }
