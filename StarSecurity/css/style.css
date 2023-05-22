@@ -131,7 +131,7 @@ section{
   .navbar a[href="#login"]:hover {
     background-color: #ddd;
   }
-  /*end*/
+  /*---------end-------------*/
 
 .home{
     display: flex;
@@ -194,6 +194,7 @@ section{
     animation-duration: 15s;
 }
 
+/* ------------------------Our Services-----------------------*/
 .services .box-container{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
@@ -224,7 +225,9 @@ section{
     padding:1rem 0;
     line-height: 1.8;
 }
+/* ------------------------end----------------------*/
 
+/* -------------------About us----------------*/
 .about .row{
     display: flex;
     align-items: center;
@@ -287,7 +290,10 @@ section{
     font-size: 1.6rem;
     padding-top: 1rem;
 }
+/* -------------------end----------------*/
 
+
+/* -------------------Clients----------------*/
 .portfolio .box-container{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
@@ -364,9 +370,10 @@ section{
     font-size: 30px;
     
 }
+/*------------------------------ end -----------------------*/
 
 
-
+/* ------------------------Testimonials-----------------------*/
 .review .box-container{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -417,7 +424,9 @@ section{
     color: var(--light-color);
     font-style: italic;
 }
+/* ------------------------end-----------------------*/
 
+/* ------------------------Contact and sitemaps-----------------------*/
 .contact .icons-container{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -502,7 +511,9 @@ section{
 .contact .row form .btn:hover{
     background: var(--black);
 }
+/* ------------------------end-----------------------*/
 
+/* -------------------Footer----------------*/
 .footer{
     margin-top: 1rem;
     background: var(--bg);
@@ -549,6 +560,7 @@ section{
 .footer .credit span{
     color:var(--main-color);
 }
+/* -------------------end----------------*/
 
 
 
@@ -560,8 +572,7 @@ section{
 
 
 
-
-
+/* -------------------Reponsive----------------*/
 /* media queries  */
 @media (max-width:991px){
 
