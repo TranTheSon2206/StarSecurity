@@ -118,8 +118,17 @@ section{
     background: var(--main-color);
 }
 
+
+  
+
+
+
+
+
+
+
 /* CSS cho nút Login */
-.navbar a[href="#login"] {
+.navbar a[href="login.html"] {
     background-color: #e8786e;
     color: white;
     padding: 10px 20px;
@@ -128,7 +137,7 @@ section{
     margin-left: 10px;
   }
   
-  .navbar a[href="#login"]:hover {
+  .navbar a[href="login.html"]:hover {
     background-color: #ddd;
   }
   /*---------end-------------*/
@@ -194,6 +203,12 @@ section{
     animation-duration: 15s;
 }
 
+
+
+
+
+
+
 /* ------------------------Our Services-----------------------*/
 .services .box-container{
     display:grid;
@@ -226,6 +241,19 @@ section{
     line-height: 1.8;
 }
 /* ------------------------end----------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* -------------------About us----------------*/
 .about .row{
@@ -291,6 +319,48 @@ section{
     padding-top: 1rem;
 }
 /* -------------------end----------------*/
+
+
+
+
+
+
+
+
+/* -------------------Our Network----------------*/
+.network{
+    display:inline;
+}
+
+.network .btn{
+    margin-left: 630px;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------end----------------*/
+
+
+
+
+
+
+
+
+
 
 
 /* -------------------Clients----------------*/
@@ -373,6 +443,14 @@ section{
 /*------------------------------ end -----------------------*/
 
 
+
+
+
+
+
+
+
+
 /* ------------------------Testimonials-----------------------*/
 .review .box-container{
     display:grid;
@@ -425,6 +503,14 @@ section{
     font-style: italic;
 }
 /* ------------------------end-----------------------*/
+
+
+
+
+
+
+
+
 
 /* ------------------------Contact and sitemaps-----------------------*/
 .contact .icons-container{
@@ -512,6 +598,16 @@ section{
     background: var(--black);
 }
 /* ------------------------end-----------------------*/
+
+
+
+
+
+
+
+
+
+
 
 /* -------------------Footer----------------*/
 .footer{
