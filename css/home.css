@@ -320,7 +320,7 @@ section{
 }
 .about .row .content .btn{
     font-size: 20px;
-    margin-left: 200px;
+    margin-left: 230px;
     margin-top: 50px;
     height: 50px;
     width: 175px;
@@ -336,18 +336,21 @@ section{
 
 /* -------------------Our Network----------------*/
 .network{
-    display: inline;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .network .btn{
-    margin-left: 630px;
     font-size: 25px;
+
 }
 
 .slider{
     position: relative;
     background: #e8687e;
-    width: 800px;
+    width: 1200px;
     min-height: 500px;
     margin: 20px;
     overflow: hidden;
@@ -448,20 +451,6 @@ section{
     background: #e8786e;
   }
   
-  .slider {
-    margin-left: 350px;
-  }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -788,16 +777,6 @@ section{
 /* -------------------Reponsive----------------*/
 /* media queries  */
 @media (max-width:991px){
-    .slider{
-        width: 100%;
-      }
-    
-      .slider .slide .info{
-        position: relative;
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-      }
 
     html{
         font-size: 55%;
@@ -860,13 +839,30 @@ section{
     html{
         font-size: 50%;
     }
-    .slider .slide .info h2{
-    font-size: 1.8em;
-    line-height: 40px;
-  }
-
-  .slider .slide .info p{
-    font-size: 0.9em;
-  }
 
 }
+
+@media (max-width: 900px){
+    .slider{
+      width: 100%;
+    }
+  
+    .slider .slide .info{
+      position: relative;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  @media (max-width: 500px){
+    .slider .slide .info h2{
+      font-size: 1.8em;
+      line-height: 40px;
+    }
+  
+    .slider .slide .info p{
+      font-size: 0.9em;
+    }
+  }
+        
