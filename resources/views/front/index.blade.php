@@ -387,52 +387,5 @@
 </section>
 <!-- contact section ends -->
 
-<!-- footer section starts  -->
-<section class="footer">
-
-    <div class="box-container">
-        
-        <div class="box">
-            <h3>our branches</h3>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> india </a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> USA </a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> france </a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> japan </a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> russia </a>
-        </div>
-
-        <div class="box">
-            <h3>quick links</h3>
-            <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
-            <a href="#"> <i class="fas fa-arrow-right"></i> services </a>
-            <a href="#"> <i class="fas fa-arrow-right"></i> about </a>
-            <a href="#"> <i class="fas fa-arrow-right"></i> clients </a>
-            <a href="#"> <i class="fas fa-arrow-right"></i> review </a>
-            <a href="#"> <i class="fas fa-arrow-right"></i> contact </a>
-        </div>
-
-        <div class="box">
-            <h3>our services</h3>
-            <a href="#"> <i class="fas fa-check"></i> Manned guarding </a>
-            <a href="#"> <i class="fas fa-check"></i> Cash Services </a>
-            <a href="#"> <i class="fas fa-check"></i> Recruitment and training </a>
-            <a href="#"> <i class="fas fa-check"></i> Electronic security systems </a>
-        </div>
-
-        <div class="box">
-            <h3>follow us</h3>
-            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
-            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
-            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
-            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
-            <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
-        </div>
-
-    </div>
-
-    <div class="credit">created by <span>StarSecurity</span> | all rights reserved</div>
-
-</section>
-<!-- footer section ends -->
 
 @endsection
